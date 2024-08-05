@@ -17,7 +17,6 @@ grades_2_av = sum(grades_2) / len(grades_2)
 grades_3_av = sum(grades_3) / len(grades_3)
 grades_4_av = sum(grades_4) / len(grades_4)
 grades_av = [grades_0_av, grades_1_av, grades_2_av, grades_3_av, grades_4_av]
-#grades_av = {round(grades_0_av,1), round(grades_1_av,1), round(grades_2_av,1), round(grades_3_av,1), round(grades_4_av,1)}
 print(grades_av)
 students = students_sort
 print(students, type(students))
