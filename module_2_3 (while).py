@@ -3,8 +3,6 @@ a = 0
 while a < len(my_spase):
     if my_spase[a] > 0:
         print(my_spase[a])
+    if my_spase[a] < 0:
+         break
     a += 1
-    # continue
-    # if my_spase[a] < 0:
-    #      break
-    # a += 1
