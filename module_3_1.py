@@ -35,6 +35,8 @@ def is_contains(string, list_to_search):
             result = False
             continue
     return result
+
+# N.B.
 # Преобразовать список строк в нижний или верхний регистр можно одним выражением:
 # lowercase_list = [s.lower() for s in my_list]
 # uppercase_list = [s.upper() for s in my_list] - my_lyst - преобразуемый список
